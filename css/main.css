@@ -79,4 +79,36 @@ nav .menu-div .nav-item a {
   bottom: 67px;
   left: 50%;
 }
+
+.about-container {
+  height: 371px;
+  position: absolute;
+}
+
+.about-container .about-us {
+  text-align: center;
+  position: relative;
+  height: 204px;
+  width: 50%;
+  top: 73px;
+  margin: 0 auto;
+  bottom: 94px;
+}
+
+.about-container .about-us h2 {
+  padding-bottom: 40px;
+  color: #333333;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 44px;
+}
+
+.about-container .about-us p {
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
 /*# sourceMappingURL=main.css.map */
