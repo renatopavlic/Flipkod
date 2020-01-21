@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.myrow {
+    background-color: #D0D0D0;
+    height: 80px;
+    position: relative;
+
+    & .mynavbar {
+        width: 100%;
+    }
+
+    & .navbar-brand {
+        margin-left: 100px;
+    }
+
+    & .menu-div {
+      margin-right: 101px;
+    
+
+    & .nav-item a {
+        height: 19px;
+        width: 100px;
+        color: #FFFFFF;	
+        font-family: "Open Sans";	
+        font-size: 11px;
+        letter-spacing: 3.4px;
+        line-height: 19px;
+        text-align: center;
+    }
+}
+}
