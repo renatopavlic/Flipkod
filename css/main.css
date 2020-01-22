@@ -3,6 +3,7 @@ body {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 nav {
@@ -82,15 +83,12 @@ nav .menu-div .nav-item a {
 
 .about-container {
   height: 371px;
-  position: absolute;
 }
 
 .about-container .about-us {
   text-align: center;
-  position: relative;
   height: 204px;
   width: 50%;
-  top: 73px;
   margin: 0 auto;
   bottom: 94px;
 }
@@ -110,5 +108,46 @@ nav .menu-div .nav-item a {
   font-size: 15px;
   font-weight: 300;
   line-height: 30px;
+}
+
+.dualcontainer {
+  height: 685px;
+  width: 100%;
+}
+
+.dualcontainer .square {
+  background-color: #D0D0D0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.dualcontainer .right-div {
+  display: inline-block;
+  height: 685px;
+  margin-top: 25%;
+  margin-left: 78px;
+}
+
+.dualcontainer .right-div h2 {
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 44px;
+  padding-bottom: 40px;
+}
+
+.dualcontainer .right-div p {
+  width: 50%;
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.dualcontainer .why {
+  background-color: #F5F5F5;
 }
 /*# sourceMappingURL=main.css.map */
