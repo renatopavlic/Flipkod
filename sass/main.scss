@@ -2,17 +2,17 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    height: 100%;
+    width: 1600px;
 }
 
 nav {
     background-color: #D0D0D0;
     height: 80px;
-    width: 100%;
+    width: 1600px;
     position: relative;
 
     & .mynavbar {
-        width: 100%;
+        width: 1600px;
     }
 
     & .navbar-brand {
@@ -38,7 +38,7 @@ nav {
 
 .welcome-div {
     height: 820px;
-    width: 100%;
+    width: 1600px;
     background-color: #D0D0D0;
     position: relative;
     text-align: center;
@@ -93,7 +93,8 @@ nav {
         bottom: 94px;
 
         & h2 {
-            padding-bottom: 40px;	
+            padding-bottom: 40px;
+            margin-top: 130px;	
             color: #333333;	
             font-family: "Open Sans";	
             font-size: 32px;	
@@ -112,33 +113,40 @@ nav {
 
 .dualcontainer {
     height: 685px;
-    width: 100%;
+    width: 1600px;
+    display: inline-block;
+    margin: 0px;
+    padding:0px;
 
     & .square {
         background-color: #D0D0D0;
-        width: 100%;
-        height: 100%;
+        width: 50%;
+        height: 685px;
         display: inline-block;
         
     }
 
     & .right-div {
         display: inline-block;
+        width: 779px;
         height: 685px;
-        margin-top: 25%;
-        margin-left: 78px;
-
+        position: relative;
+    
+        & .mytext {
+            position: absolute;
+            left: 78px;
+            top: 140px;
+            
         & h2 {
                 color: #333333;
                 font-family: "Open Sans", sans-serif;
                 font-size: 32px;
                 font-weight: 300;
                 line-height: 44px;
-                padding-bottom: 40px;
+                padding-bottom: 20px;
             }
 
         & p {
-            width: 50%;
             color: #777777;	
             font-family: "Open Sans";	
             font-size: 15px;	
@@ -146,8 +154,142 @@ nav {
             line-height: 30px;
         }
     }
+}
+}
 
-    & .why {
-        background-color: #F5F5F5;
+.portfolio-section {
+    height: 371px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 120px;
+
+    & h3 {
+        color: #333333;	
+        font-family: "Open Sans";	
+        font-size: 32px;	
+        font-weight: 300;	
+        line-height: 44px;
+        padding-bottom: 30px;
+    }
+    & p {
+        color: #777777;	
+        font-family: "Open Sans";	
+        font-size: 15px;	
+        font-weight: 300;	
+        line-height: 30px;
+    }
+
+    & ul {
+        padding-top: 50px;
+
+        & li {
+        text-decoration: none;
+        display: inline; 
+        font-family: Raleway;	
+        font-size: 15px;	
+        font-weight: bold;	
+        letter-spacing: 3.4px;	
+        line-height: 11px; 
+        margin-right: 20px;  
+        & a:hover {
+            padding-bottom: 5px;
+            border-bottom: 2px solid blue;
+        } 
+         }
+    }
+}
+
+.gallery {
+    width: 1600px;
+    height: 800px;
+    margin-top: 50px;
+    padding: 0;
+    position: relative;
+
+    & .box1{
+        height:400px;
+        width: 400px;
+        display: inline-block;
+        background-color: #AFAFAF;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    & .box2{
+        height: 455px;	
+        width: 400px;
+        background-image: url("https://images.pexels.com/photos/1038935/pexels-photo-1038935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-position: center;
+        position: absolute;
+        top: 0px;
+        left: 400px;
+    }
+    & .box3{
+        height: 400px;
+        width: 400px;
+        background-color: #A4A4A4;
+        position: absolute;
+        top: 0px;
+        left: 800px;
+    }
+    & .box4{
+        height: 400px;	
+        width: 400px;	
+        background-color: #D0D0D0;
+        position: absolute;
+        top: 0px;
+        left: 1200px;
+    }
+    & .box5 {
+        height: 400px;	
+        width: 400px;	
+        background-color: #A4A4A4;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+    & .box6 {
+        height: 400px;	
+        width: 400px;	
+        background-color: #AFAFAF;
+        position: absolute;
+        bottom: 0px;
+        left: 400px;
+    }
+    & .box7 {
+        height: 500px;	
+        width: 400px;	
+        background-color: #AFAFAF;
+        position: absolute;
+        bottom: 0px;
+        left: 800px;
+    }
+    & .box8 {
+        height: 400px;	
+        width: 400px;	
+        background-color: #A4A4A4;
+        position: absolute;
+        bottom: 0;
+        left: 1200px;
+
+    }
+
+}
+
+.btn-section {
+    height: 200px;
+    width: 1600px;
+    text-align: center;
+    position: relative;
+    
+    & .mybtn {
+       position: absolute;
+       bottom: 0;
+       height: 43px;	
+       width: 161px;	
+       border: 2px solid #4A90E2;	
+       background-color: #FFFFFF;
+       color: #4A90E2;
     }
 }
